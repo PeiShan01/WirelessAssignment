@@ -17,7 +17,6 @@ jobs:
         with:
           embold-url: https://app.embold.io/organization/gh/PeiShan01/repositories?offset=0&limit=20&sortBy=repositoryName&searchTerm=&&currentPage=1&recordPerPage=20
           embold-token: ${{ secrets.EMBOLD_TOKEN }}
-          repo-config: '/github/workspace/repository-configuration.json'
           repo-uid: 2835c8ac4f279414f4e6e4a9fd232c47
           # Uncomment the below line for verbose logging
           # verbose: true
