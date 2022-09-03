@@ -1,3 +1,5 @@
+name: Testing CI
+
 on: [push]
 jobs:
   embold_scan_job:
